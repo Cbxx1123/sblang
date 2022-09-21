@@ -1,0 +1,9 @@
+fn printToX x do
+  for i in x
+    i 1 + $
+  end
+end
+
+fn main do
+  10 printToX()
+end
